@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.card{
+    background-color: #ffffff;
+    width: 400px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 50px;
+}
+img{
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 29px;
+}
+h2{
+    font-size: 29px;
+    margin-bottom: 20px;
+}
+p{
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: gray;
+}
+.details p a{
+    text-decoration: none;
+    color: black;
+    margin-bottom: 40px;
+}
+.button{
+margin-top: 40px;
+}
+.button a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    margin: 10px;
+    border-radius: 10px;
+}
+.button a:hover{
+    background-color: gray;
+}
